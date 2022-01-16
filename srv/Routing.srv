@@ -1,0 +1,8 @@
+string vehicle_id
+int64 task_id
+Point current_pos
+Point target_pos
+---
+string vehicle_id
+int64 task_id
+Point[] path_points
