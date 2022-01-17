@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="fms_agent" type="task_publisher.py" name="cloud_task_publisher"/>
+    <node pkg="fms_agent" type="task_status_subscriber.py" name="cloud_taskstatus_subscriber"/>
+    <node pkg="fms_agent" type="cloud_routing_server.py" name="cloud_routing_server"/>
+</launch>
